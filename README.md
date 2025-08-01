@@ -63,12 +63,12 @@ Each model was evaluated on the **test set** using the following metrics:
 
 | Model                      | Accuracy | Precision | Recall |
 |---------------------------|----------|-----------|--------|
-| Stacking                  | 0.878    | 0.717     | 0.763  |
-| Logistic Regression       | 0.862    | 0.701     | 0.738  |
-| Decision Tree             | 0.853    | 0.690     | 0.721  |
-| **Gradient Boosting (GBDT)** | **0.887** | **0.752** | **0.770** |
-| Random Forest             | 0.874    | 0.735     | 0.755  |
-| KNN                       | 0.838    | 0.675     | 0.701  |
+| Stacking                  | 0.834     | 0.677    | 0.559  |
+| Logistic Regression       | 0.809    | 0.580     | 0.680  |
+| Decision Tree             | 0.823    | 0.674     | 0.480  |
+| **Gradient Boosting (GBDT)** | **0.837** | **0.680** | **0.578** |
+| Random Forest             | 0.830    | 0.665     | 0.558  |
+| KNN                       | 0.823    | 0.674     | 0.480  |
 
 
 > **Gradient Boosted Decision Trees (GBDT)** were selected as the final model due to a strong balance of all three metrics.
